@@ -1,5 +1,5 @@
 #amazing-container{
-  left: 300px;
+  left: 550px;
   top: 445px;
   width: 1052px;
   height: 140px;
@@ -36,7 +36,7 @@
 
 #amazing-logo.shown{
   transform: translateY(-50%) scale(1, 1);
-  left: 930px;
+  left: 630px;
 }
 
 #amazing-container.hide{

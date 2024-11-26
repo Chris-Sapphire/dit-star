@@ -347,24 +347,24 @@ function showEnding(){
 function itsAmazingOutThere(){
   getElement('amazing-text').classList.add('extend');
   getElement("amazing-logo").classList.add('shown');
-  getElement("amazing-container").classList.add('hide');
+  // getElement("amazing-container").classList.add('hide');
 }
 
 function stayUpdated(){
   getElement('updated-text').classList.add('extend');
   getElement("updated-logo").classList.add('shown');
-  getElement("updated-container").classList.add('hide');
+  // getElement("updated-container").classList.add('hide');
 }
 
 // Final background animate out
 function clearEnd(){
-  getElement('background-image').classList.add("above-screen");
-  getElement('content-container').classList.add("above-screen");
+  // getElement('background-image').classList.add("above-screen");
+  // getElement('content-container').classList.add("above-screen");
 
   // Reload the page after animation has completed
   // If looping is enabled, the sequence will start again
   // Otherwise, the zip code prompt will show again
-  setTimeout(reloadPage, 400)
+  // setTimeout(reloadPage, 400)
 }
 
 function reloadPage(){

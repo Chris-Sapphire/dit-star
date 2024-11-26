@@ -1,11 +1,11 @@
 window.CONFIG = {
-  crawl: `Thanks to all the contributors of this project. While it's not completely finished, the community effort has made this possible. Stars, contributions, and feedback are welcome and appreciated. Thanks for trying out this emulator.`,
-  greeting: 'Soar together.',
+  crawl: `You're watching DIT TV.  Have feedback for us? Drop an anonymous comment in the Feedback Fishbowl located behind the time clock in Pod 6!  Got a tip to display on this display? Let Chris know!`,
+  greeting: 'This is your weather.',
   language: 'en-US', // Supported in TWC API
   countryCode: 'US', // Supported in TWC API (for postal key)
   units: 'e', // Supported in TWC API (e = English (imperial), m = Metric, h = Hybrid (UK)),
   unitField: 'imperial', // Supported in TWC API. This field will be filled in automatically. (imperial = e, metric = m, uk_hybrid = h)
-  loop: true,
+  loop: false,
   locationMode: "POSTAL",
   secrets: {
     // Possibly deprecated key: See issue #29
@@ -133,11 +133,13 @@ window.CONFIG = {
     btn.style = 'margin-bottom: 10px;'
     btn.appendChild(document.createTextNode('Start'))
     settingsPrompt.appendChild(btn)
-    if (CONFIG.loop || localStorage.getItem('loop') === 'y') {
-      CONFIG.loop = true;
-      hideSettings();
-      CONFIG.submit()
-    }
+    // if (CONFIG.loop || localStorage.getItem('loop') === 'y') {
+    //   CONFIG.loop = true;
+    //   hideSettings();
+    //   CONFIG.submit()
+    // }
+    hideSettings();
+    CONFIG.submit()
   }
 }
 
