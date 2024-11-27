@@ -1,5 +1,5 @@
 window.CONFIG = {
-  crawl: `You're watching DIT TV.  Have feedback for us? Drop an anonymous comment in the Feedback Fishbowl located behind the time clock in Pod 6!  Got a tip to display on this display? Let Chris know!`,
+  crawl: `You're watching DIT TV.  Have feedback for us? Drop an anonymous comment in the Feedback Fishbowl located behind the time clock in Pod 6!  Got a tip to display on this screen? Let Chris know!`,
   greeting: 'This is your weather.',
   language: 'en-US', // Supported in TWC API
   countryCode: 'US', // Supported in TWC API (for postal key)
