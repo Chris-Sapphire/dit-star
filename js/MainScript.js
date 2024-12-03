@@ -53,8 +53,8 @@ function toggleAdvancedSettings(){
 }
 
 function preLoadMusic(){
-  var index = Math.floor(Math.random() * 12) + 1;
-  music = new Audio("assets/music/" + index + ".opus");
+  // var index = Math.floor(Math.random() * 12) + 1;
+  // music = new Audio("assets/music/" + index + ".opus");
 }
 
 /* Set the timeline page order depending on time of day and if
@@ -103,7 +103,7 @@ function setMainBackground(){
 
 function checkStormMusic(){
   if(currentCondition.toLowerCase().includes("storm")){
-    music= new Audio("assets/music/storm.opus");
+    // music= new Audio("assets/music/storm.opus");
   }
 }
 
